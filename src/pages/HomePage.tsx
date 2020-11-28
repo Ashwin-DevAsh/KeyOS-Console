@@ -1,10 +1,13 @@
 import React from "react";
 import Images from "../assets/Images";
+import About from "../components/About/About";
 import Download from "../components/Download/Download";
 import Faq from "../components/Faq/Faq";
 import Features from "../components/Features/Features";
 import FeaturesOverView from "../components/FeaturesOverView/FeaturesOverView";
 import Header from "../components/Header/Header";
+import Reviews from "../components/Reviews/Reviews";
+import Screenshots from "../components/Screenshots/Screenshots";
 
 var lastScrolled = 0;
 
@@ -25,7 +28,10 @@ function HomePage() {
       <FeaturesOverView />
       <Features />
       <Download />
+      <Reviews />
+      <Screenshots />
       <Faq />
+      <About />
     </div>
   );
 }
@@ -68,8 +74,21 @@ function getNavBar(
           >
             Features
           </li>
-          <li>Screenshots</li>
-          <li>Reviews</li>
+          <li
+            onClick={() => {
+              scroll(".reviews");
+            }}
+          >
+            Reviews
+          </li>
+
+          <li
+            onClick={() => {
+              scroll(".screenshots-container");
+            }}
+          >
+            Screenshots
+          </li>
           <li
             onClick={() => {
               scroll(".faq");

@@ -18,6 +18,9 @@ import appUsers from "./appUsers.webp";
 import burgarMenu from "./burgar_menu.svg";
 import ovalRectBlue from "./oval_rect_blue.svg";
 import arrow from "./arrow-icon.svg";
+import leftArrow from "./left-arrow.svg";
+import rightArrow from "./right-arrow.svg";
+import star from "./star.svg";
 
 export default {
   keyOS,
@@ -40,4 +43,7 @@ export default {
   burgarMenu,
   ovalRectBlue,
   arrow,
+  leftArrow,
+  rightArrow,
+  star,
 };
