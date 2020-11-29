@@ -1,5 +1,6 @@
 .header-container {
   position: relative;
+  display: none;
   height: 118.5vh;
   width: 100%;
 }
@@ -259,7 +260,7 @@ li {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .bottom-text > h1 {
     font-size: 10rem;
   }

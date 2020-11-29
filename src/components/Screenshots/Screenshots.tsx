@@ -42,6 +42,9 @@ export default function Screenshots() {
           value={page}
           className="carousel"
           itemWidth={300}
+          onChange={(value) => {
+            setPage(value);
+          }}
           plugins={[
             "centered",
             "infinite",

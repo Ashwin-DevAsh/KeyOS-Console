@@ -3,7 +3,7 @@ import mobile from "../assets/mobile.svg";
 import ovelrect from "../assets/ovelRect.svg";
 import work from "../assets/work.svg";
 import apps from "./apps.svg";
-import browser from "./browser.svg";
+import browser from "./chrome.svg";
 import paint from "./paint.svg";
 import mobileFeatures from "./mobile_features.svg";
 import featureKioskMode from "./feature_kiosk_mode.svg";

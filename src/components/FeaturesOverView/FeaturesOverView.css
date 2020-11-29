@@ -4,6 +4,12 @@
   position: relative;
   align-items: center;
   flex-direction: column;
+  margin-top: 50px;
+}
+
+.featureOverview-selector {
+  position: absolute;
+  top: -200px;
 }
 
 .heading {

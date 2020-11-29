@@ -62,7 +62,7 @@ function getNavBar(
         <ul>
           <li
             onClick={() => {
-              scroll(".header");
+              scroll(".featureOverview-selector");
             }}
           >
             Home

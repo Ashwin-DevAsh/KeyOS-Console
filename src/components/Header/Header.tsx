@@ -9,7 +9,7 @@ export default () => {
         <img className="top-ring-blue" src={Images.ovalRectBlue} alt="" />
 
         <div className="landing-text">
-          <h1>An innovation kiosk lockdown protection for android</h1>
+          <h1>An inovation kiosk lockdown protection for android</h1>
         </div>
 
         <div className="mobile-image">

@@ -13,7 +13,7 @@ export default () => {
     ),
     new Feature(
       "Advance",
-      `With keyOS you can block unwanted websites using keyOS web filter and 
+      `With keyOS you can block unwanted websites using keyOS web filter 
        and block unwanted incoming and outgoing calls with keyOS call blocker. 
        You can also configure whitelist or blacklist for websites and contacts`,
       Images.browser
@@ -29,6 +29,7 @@ export default () => {
 
   return (
     <div className="FeaturesOverview">
+      <div className="featureOverview-selector" />
       <div className="heading">
         <h2>{"The right tool\n for the moment"}</h2>
         <h5>
